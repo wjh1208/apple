@@ -1,0 +1,81 @@
+# App Store
+# Store content such as apps, books, and music
+DOMAIN-SUFFIX,apps.apple.com,PROXY
+DOMAIN-SUFFIX,itunes.apple.com,PROXY
+DOMAIN-SUFFIX,itunes-apple.com.akadns.net,PROXY
+DOMAIN-SUFFIX,mzstatic.com,PROXY
+DOMAIN,ppq.apple.com,PROXY
+# > App Store Connect
+DOMAIN,appstoreconnect.apple.com,PROXY
+DOMAIN,iosapps-ssl.itunes.apple.com,PROXY
+DOMAIN,itcmobile.itunes.apple.com,PROXY
+# Apple
+DOMAIN-SUFFIX,aaplimg.com,Apple
+DOMAIN-SUFFIX,apple.co,Apple
+DOMAIN-SUFFIX,apple.com,Apple
+DOMAIN-SUFFIX,apple.com.cn,Apple
+DOMAIN-SUFFIX,apple-cloudkit.com,Apple
+DOMAIN-SUFFIX,apple-livephotoskit.com,Apple
+DOMAIN-SUFFIX,apple-mapkit.com,Apple
+DOMAIN-SUFFIX,applemusic.com,Apple
+DOMAIN-SUFFIX,appstore.com,Apple
+DOMAIN-SUFFIX,apzones.com,Apple
+DOMAIN-SUFFIX,cdn-apple.com,Apple
+DOMAIN-SUFFIX,icloud.com,Apple
+DOMAIN-SUFFIX,icloud.com.cn,Apple
+DOMAIN-SUFFIX,icloud-content.com,Apple
+DOMAIN-SUFFIX,me.com,Apple
+DOMAIN-SUFFIX,mzstatic.com,Apple
+DOMAIN-KEYWORD,apple.com.akadns.net,Apple
+DOMAIN-KEYWORD,apple.com.edgekey.net,Apple
+DOMAIN-KEYWORD,apple-support.akadns.net,Apple
+DOMAIN-KEYWORD,icloud.com.akadns.net,Apple
+# iCloud
+DOMAIN-SUFFIX,apple-cloudkit.com,PROXY
+DOMAIN-SUFFIX,apple-livephotoskit.com,PROXY
+DOMAIN-SUFFIX,apzones.com,PROXY
+DOMAIN-SUFFIX,cdn-apple.com,PROXY
+DOMAIN-SUFFIX,gc.apple.com,PROXY
+DOMAIN-SUFFIX,icloud.apple.com,PROXY
+DOMAIN-SUFFIX,icloud.com,PROXY
+DOMAIN-SUFFIX,icloud.com.cn,PROXY
+DOMAIN-SUFFIX,icloud-content.com,PROXY
+DOMAIN-SUFFIX,iwork.apple.com,PROXY
+DOMAIN-KEYWORD,icloud.com.akadns.net,PROXY
+# Software Update
+# > macOS updates
+DOMAIN,configuration.apple.com,PROXY
+DOMAIN,gnf-mdn.apple.com,PROXY
+DOMAIN,gnf-mr.apple.com,PROXY
+DOMAIN,gs.apple.com,PROXY
+DOMAIN,ig.apple.com,PROXY
+DOMAIN,skl.apple.com,PROXY
+DOMAIN,swcdn.apple.com,PROXY
+DOMAIN,swdist.apple.com,PROXY
+DOMAIN,swdownload.apple.com,PROXY
+DOMAIN,swpost.apple.com,PROXY
+DOMAIN,swscan.apple.com,PROXY
+# > macOS Recovery
+DOMAIN,oscdn.apple.com,PROXY
+DOMAIN,osrecovery.apple.com,PROXY
+# > iOS, iPadOS, and watchOS updates
+DOMAIN,appldnld.apple.com,PROXY
+DOMAIN,ns.itunes.apple.com,PROXY
+# > iOS, iPadOS, tvOS, watchOS, and macOS updates
+DOMAIN,gg.apple.com,PROXY
+DOMAIN,gdmf.apple.com,PROXY
+DOMAIN,mesu.apple.com,PROXY
+DOMAIN,updates.cdn-apple.com,PROXY
+DOMAIN,updates-http.cdn-apple.com,PROXY
+DOMAIN,xp.apple.com,PROXY
+# > Apple Music
+USER-AGENT,Music*,PROXY
+DOMAIN-SUFFIX,applemusic.com,PROXY
+DOMAIN-SUFFIX,music.apple.com,PROXY
+DOMAIN,aod.itunes.apple.com,PROXY
+DOMAIN,aod-ssl.itunes.apple.com,PROXY
+DOMAIN,audio.itunes.apple.com,PROXY
+DOMAIN,audio-ssl.itunes.apple.com,PROXY
+DOMAIN,mvod.itunes.apple.com,PROXY
+DOMAIN,streamingaudio.itunes.apple.com,PROXY
+DOMAIN-SUFFIX,blobstore.apple.com,PROXY
